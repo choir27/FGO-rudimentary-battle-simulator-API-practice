@@ -1,0 +1,67 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  background: no-repeat url('background.png') center/cover;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.grid{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.gridBody{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+
+section{
+  margin: 2% 2%;
+  width: 30%;
+  border: 3px solid black;
+}
+
+button, p{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.prompt{
+  width: 10%;
+font-size: 2rem;
+}
+
+p{
+  align-self: center;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
